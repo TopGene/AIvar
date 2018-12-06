@@ -113,7 +113,7 @@ SetUp
 
   **usage**：
   
-	 $ python3 AIvar.py -t predict -i clinvar_20180128.example.hg19_multianno.txt -o clinvar_20180128.example -m class_20180128.example.model_weights.h5
+	 $ python3 AIvar.py -t predict -i example.hg19_multianno.txt -o example -m example.model_weights.h5
 
   -t choose type of analysis module, in this case 'predict'
 
