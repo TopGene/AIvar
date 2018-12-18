@@ -4,7 +4,7 @@
 Author:
 	ziyi
 Version:
-        1.0
+        1.1
 '''
 import sys, os, argparse, re
 import numpy as np
