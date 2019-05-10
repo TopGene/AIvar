@@ -26,7 +26,7 @@ SetUp
   * [RefGene](https://genome.ucsc.edu/cgi-bin/hgTables)
   * [LOF genes](https://github.com/WGLab/InterVar/blob/master/intervardb/PVS1.LOF.genes.hg19)
 
-  **Notes**: modify the file bin/database.cfg
+  **Notes**: don't forget to give the paths to the above database files specified in bin/database.cfg
 
 **4**.Prepare Input Data
 
@@ -81,7 +81,7 @@ SetUp
   
   **Usage**：
 
-	 $ python3 AIVAR.py -t model -i clinvar_20180128.example.hg19_multianno.txt -o clinvar_20180128.example -c clinvar_20180128.example.clinical.txt
+	 $ python3 AIVAR.py -t model -i example.hg19_multianno.txt -c example.class -o example
 
   -t choose type of analysis module, in this case 'model'
 
@@ -113,7 +113,7 @@ SetUp
 
   **usage**：
   
-	 $ python3 AIVAR.py -t predict -i example.hg19_multianno.txt -o example -m example.model_weights.h5
+	 $ python3 AIVAR.py -t predict -i test.hg19_multianno.txt -c test.class -o test.prediction -m example.model_weights.h5
 
   -t choose type of analysis module, in this case 'predict'
 
