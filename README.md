@@ -113,7 +113,7 @@ SetUp
 
   **usage**：
   
-	 $ python3 AIVAR.py -t predict -i test.hg19_multianno.txt -c test.class -o test.prediction -m example.model_weights.h5
+	 $ python3 AIVAR.py -t predict -i example.hg19_multianno.txt -o example -m example.model_weights.h5
 
   -t choose type of analysis module, in this case 'predict'
 
