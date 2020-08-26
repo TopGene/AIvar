@@ -2,6 +2,8 @@
 
 We took advantages of neural network methods and developed an in silico method, AIVAR (Artificial Intelligent VARiant classifier), which is highly comparable to human experts on known data sets.
 
+20/08/26 Added supplementary tables of the AIVAR paper https://doi.org/10.1093/bioinformatics/btz442, the original file depository is no longer available.
+
 Dependecy
 ----------
 
